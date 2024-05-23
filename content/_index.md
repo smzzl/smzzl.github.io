@@ -33,13 +33,13 @@ sections:
             filename: blank.png
             filters:
               brightness: 0.7
-          position: butto
+          position: center
           color: '#666'
         link:
           icon: book
           icon_pack: fas
           text: Read paper
-          url: www.arxiv.org
+          url: https://www.arxiv.org
 
 
       - title: 代表性工作_2
@@ -50,14 +50,38 @@ sections:
             filename: blank.png
             filters:
               brightness: 0.7
-          position: butto
+          position: center
           color: '#666'
         link:
           icon: book
           icon_pack: fas
           text: Read paper
-          url: www.arxiv.org
+          url: https://www.arxiv.org
 
+
+  - block: feature
+    content:
+      title: 学术带头人介绍
+      image:
+        filename: blank.png
+        alt_text: 学术带头人
+      text: |
+        简介
+    design:
+      columns: '1'
+      view: horizontal
+
+  - block: feature
+    content:
+      title: 实验室介绍
+      image:
+        filename: blank.png
+        alt_text: 实验室
+      text: |
+        简介
+    design:
+      columns: '1'
+      view: horizontal
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
@@ -65,5 +89,5 @@ sections:
       # Automatically transition through slides?
       loop: true
       # Duration of transition between slides (in ms)
-      interval: 2000
+      interval: 4000
 ---
