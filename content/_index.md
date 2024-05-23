@@ -67,7 +67,7 @@ sections:
       interval: 4000
 
 
-  - block: feature
+  - block: features
     content:
       title: 学术带头人介绍
       image:
@@ -79,7 +79,7 @@ sections:
       columns: '1'
       view: horizontal
 
-  - block: feature
+  - block: features
     content:
       title: 实验室介绍
       image:
